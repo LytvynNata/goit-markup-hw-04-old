@@ -233,18 +233,18 @@ p {
   width: 270px;
 }
 .feature-list .item::before {
-  outline: 1px solid green;
+  /* outline: 1px solid green; */
   content: '';
   height: 120px;
   display: block;
   border-radius: 4px;
   /* background-image: url(../images/icons.svg/Group.svg); */
-  background-size: contain;
+  background-size: 65.32px 70px;
   background-position: center;
 
   background-repeat: no-repeat;
   background-color: #f5f4fa;
-  padding: 25px 100px;
+  margin-bottom: 30px;
 }
 
 /* .icon-satelite::before {
