@@ -118,6 +118,24 @@ body {
   margin-left: 50px;
 }
 
+.address .item::before {
+  /* outline: 1px solid green; */
+  content: '';
+  width: 16px;
+  height: 12px;
+  display: inline-block;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+.address .item:nth-child(1)::before {
+  background-image: url(../images/icons.svg/envelope.svg);
+}
+.address .item:nth-child(2)::before {
+  background-image: url(../images/icons.svg/smartphone.svg);
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -214,6 +232,41 @@ p {
 .feature-list .item {
   width: 270px;
 }
+.feature-list .item::before {
+  outline: 1px solid green;
+  content: '';
+  height: 120px;
+  display: block;
+  border-radius: 4px;
+  /* background-image: url(../images/icons.svg/Group.svg); */
+  background-size: contain;
+  background-position: center;
+
+  background-repeat: no-repeat;
+  background-color: #f5f4fa;
+  padding: 25px 100px;
+}
+
+/* .icon-satelite::before {
+  background-image: url(../images/icons.svg/Group.svg);
+} */
+
+.feature-list .item:nth-child(1)::before {
+  background-image: url(../images/icons.svg/Group.svg);
+}
+
+.feature-list .item:nth-child(2)::before {
+  background-image: url(../images/icons.svg/clock\ 1.svg);
+}
+
+.feature-list .item:nth-child(3)::before {
+  background-image: url(../images/icons.svg/diagram\ 1.svg);
+}
+
+.feature-list .item:nth-child(4)::before {
+  background-image: url(../images/icons.svg/astronaut\ 1.svg);
+}
+
 .feature-list .item + .item {
   margin-left: 30px;
 }
