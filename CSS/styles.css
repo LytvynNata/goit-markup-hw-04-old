@@ -340,6 +340,7 @@ p {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+  color: #afb1b8;
 }
 
 .clients-list .item + .item {
@@ -347,6 +348,11 @@ p {
 }
 
 .client-icon {
+  margin: 16px 32px;
+  fill: currentColor;
+}
+.client-icon:hover {
+  fill: var(--accent-color);
 }
 
 /*Address*/
