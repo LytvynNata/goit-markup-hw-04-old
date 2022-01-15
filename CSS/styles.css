@@ -327,6 +327,28 @@ p {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+/* ----------------clients------------------ */
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-list .item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.clients-list .item + .item {
+  margin-left: 30px;
+}
+
+.client-icon {
+}
+
 /*Address*/
 
 .address {
