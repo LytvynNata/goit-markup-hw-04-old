@@ -347,14 +347,15 @@ p {
   margin-left: 30px;
 }
 
+.client-logo {
+  color: #afb1b8;
+}
+
 .client-icon {
   margin: 16px 32px;
   fill: currentColor;
 }
 
-.client-logo {
-  color: #afb1b8;
-}
 .client-logo:hover {
   fill: var(--accent-color);
 }
