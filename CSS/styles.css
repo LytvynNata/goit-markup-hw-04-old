@@ -350,6 +350,15 @@ p {
   border-radius: 4px;
   color: var(--icons-color);
 }
+
+.client-icon {
+  fill: currentColor;
+}
+.client-link:hover,
+.client-link:focus {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
 /*Address*/
 
 .address {
