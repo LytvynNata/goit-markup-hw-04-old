@@ -104,8 +104,18 @@ body {
   color: var(--primary-text-color);
 }
 
+.address .link .envelope-icon {
+  display: inline-block;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .address .link:hover,
 .link:focus {
+  color: var(--accent-color);
+}
+
+.envelope-icon:hover {
   color: var(--accent-color);
 }
 
@@ -117,24 +127,6 @@ body {
 
 .address .item + .item {
   margin-left: 50px;
-}
-
-.address .item::before {
-  /* outline: 1px solid green; */
-  content: '';
-  width: 16px;
-  height: 12px;
-  display: inline-block;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-right: 10px;
-}
-.address .item:nth-child(1)::before {
-  background-image: url(../images/icons.svg/envelope.svg);
-}
-.address .item:nth-child(2)::before {
-  background-image: url(../images/icons.svg/smartphone.svg);
 }
 
 ul {
