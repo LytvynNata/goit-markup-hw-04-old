@@ -351,7 +351,11 @@ p {
   margin: 16px 32px;
   fill: currentColor;
 }
-.client-icon:hover {
+
+.client-logo {
+  color: #afb1b8;
+}
+.client-logo:hover {
   fill: var(--accent-color);
 }
 
