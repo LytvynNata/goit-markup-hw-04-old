@@ -313,6 +313,7 @@ p {
 .sn-contacts {
   display: flex;
   justify-content: center;
+  margin-top: 16px;
 }
 
 .sn-contacts .sn-item + .sn-item {
@@ -323,13 +324,20 @@ p {
   display: flex;
   width: 44px;
   height: 44px;
+  border-radius: 50%;
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
+  color: var(--icons-color);
 }
 
-.client-icon {
+.sn-icon {
   fill: currentColor;
+}
+
+.sn-link:hover {
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
 /* ----------------clients------------------ */
 
