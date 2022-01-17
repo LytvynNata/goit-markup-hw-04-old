@@ -106,14 +106,16 @@ body {
 
 .address .link .envelope-icon,
 .address .link .smartphone-icon {
-  display: flex;
+  /* display: flex; */
   margin-right: 10px;
   fill: currentColor;
 }
 
-.address .link {
+.address .item .link {
   display: flex;
+  align-items: center;
 }
+
 .address .link:hover,
 .link:focus {
   color: var(--accent-color);
@@ -306,8 +308,29 @@ p {
 .team-list .caption {
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.sn-contacts {
+  display: flex;
+  justify-content: center;
 }
 
+.sn-contacts .sn-item + .sn-item {
+  margin-left: 10px;
+}
+
+.sn-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.client-icon {
+  fill: currentColor;
+}
 /* ----------------clients------------------ */
 
 .clients-list {
