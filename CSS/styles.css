@@ -514,6 +514,7 @@ p {
   margin-bottom: 0;
 }
 
+/* -----------------Footer------------------- */
 .footer {
   background-color: #2f303a;
   /* color: var(--primary-white-color); */
@@ -576,9 +577,25 @@ img {
   justify-content: center;
   fill: currentColor;
 }
+.footer-icons .logo-item + .logo-item {
+  margin-left: 10px;
+}
 
 .footer-icons {
   display: flex;
+}
+.footer-link,
+.footer-sn {
+  /* outline: 2px solid green; */
+}
+.footer .container {
+  display: flex;
+}
+.footer-sn {
+  margin-left: 70px;
+}
+.probe {
+  margin-top: 12px;
 }
 /*цвет основного текста #212121*/
 
