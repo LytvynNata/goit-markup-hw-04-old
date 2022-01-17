@@ -104,18 +104,18 @@ body {
   color: var(--primary-text-color);
 }
 
-.address .link .envelope-icon {
-  display: inline-block;
+.address .link .envelope-icon,
+.address .link .smartphone-icon {
+  display: flex;
   margin-right: 10px;
   fill: currentColor;
 }
 
+.address .link {
+  display: flex;
+}
 .address .link:hover,
 .link:focus {
-  color: var(--accent-color);
-}
-
-.envelope-icon:hover {
   color: var(--accent-color);
 }
 
