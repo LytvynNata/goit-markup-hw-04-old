@@ -556,7 +556,30 @@ p {
 img {
   display: block;
 }
+.invitation {
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.14;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer-icon.link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+.footer-icon {
+  justify-content: center;
+  fill: currentColor;
+}
 
+.footer-icons {
+  display: flex;
+}
 /*цвет основного текста #212121*/
 
 /*вторичный цвет #757575 */
