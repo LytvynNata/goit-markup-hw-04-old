@@ -597,6 +597,10 @@ img {
 .probe {
   margin-top: 12px;
 }
+.footer-icon.link:hover,
+.link:focus {
+  background-color: var(--accent-color);
+}
 /*цвет основного текста #212121*/
 
 /*вторичный цвет #757575 */
