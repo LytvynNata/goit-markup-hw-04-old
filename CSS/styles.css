@@ -79,20 +79,13 @@ body {
   display: flex;
   margin-left: 93px;
 }
-/* .site-navigation .item {
-  outline: 1px solid red;
-} */
 
 .site-navigation .item + .item {
   margin-left: 50px;
 }
 
-/* .site-navigation .item:not(:first-child) {
-  margin-left: 50px;
-} */
-
-.site-nav .link:hover,
-.link:focus {
+.site-navigation .link:hover,
+.site-navigation .link:focus {
   color: var(--accent-color);
 }
 
@@ -117,7 +110,7 @@ body {
 }
 
 .address .link:hover,
-.link:focus {
+.address .link:focus {
   color: var(--accent-color);
 }
 
@@ -335,10 +328,15 @@ p {
   fill: currentColor;
 }
 
-.sn-link:hover {
+.sn-link:hover,
+.sn-link:focus {
   color: #ffffff;
   background-color: var(--accent-color);
 }
+/* {
+  color: #ffffff;
+  background-color: var(--accent-color);
+} */
 /* ----------------clients------------------ */
 
 .clients-list {
